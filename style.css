@@ -1,0 +1,5 @@
+.selectorUno { color: yellow }
+.selectorDos { color: pink; font-size: 30px; text-decoration: underline;}
+#selectorId { color: green; font-size: 60px; border: 3px dotted red; }
+#div-padre { background-color: yellowgreen;}
+.bordeRojo { color: green; font-size: 60px; border: 3px dotted red; }

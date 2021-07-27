@@ -5,25 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina 4</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
-        /* Selector {propiedad: valor} */
-        /* Selector universal */
-        /* Selector de etiquetas/elementos por ejemplo: h1 */
-        /* Selector de clase (class) */
-        /* Selector de id */
-        h1 {color: blue;}
-        p {font-size: 200px;}
-    </style>
 
     <div id="div-padre">
-        <h1>H1</h1>
-        <h2>H2</h2>
-        <h3>H3</h3>
+        <h1 class="selectorUno">H1</h1>
+        <h2 class="selectorUno">H2</h2>
+        <h3 class="selectorUno">H3</h3>
         <div>
             <h4 id="header-hijo">Titulo</h4>
-            <p>Esto es un parrafo</p>
+            <p>
+                <span id="bordeRojo">Esto es un span</span>
+                <div id="bordeRojo">Esto es un div</div>
+            </p>
             <h1>Esto deberia ser azul</h1>
         </div>
 
@@ -32,7 +27,7 @@
                 <li>Elemento lista 1</li>
                 <li>Elemento lista 2</li>
             </ul>
-            <p>Esto es otro parrafo</p>
+            <p class="selectorDos">Esto es otro parrafo</p>
         </div>
     </div>
 </body>
